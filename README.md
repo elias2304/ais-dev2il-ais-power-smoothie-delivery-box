@@ -700,6 +700,11 @@ We download and run the installer script for `uv`, then update the `PATH` enviro
 so the system knows where to find the `uv` executable. Remember that you've done exactly the same 
 in our last sessions when we've installed `uv` on our machines ? 
 
+```dockerfile
+# Just copy this and ignore it for the moment - we are going to talk about this one later!
+RUN curl -Ls https://raw.githubusercontent.com/peterrietzler/ais-dev2il-ais-power-smoothie-delivery-box/refs/heads/exercises/scripts/setup-special-smoothie-maker-env.sh | sh
+```
+
 **Bringing in the Code**
 
 Now let's get our application files into the container.
